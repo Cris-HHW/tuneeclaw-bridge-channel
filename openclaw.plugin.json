@@ -1,0 +1,12 @@
+{
+  "id": "tunee-bridge",
+  "name": "Tunee Bridge",
+  "description": "MVP: WS inbound, HTTP reply outbound",
+  "version": "0.1.0",
+  "channels": ["tunee"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

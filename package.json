@@ -1,0 +1,22 @@
+{
+  "name": "tunee-bridge",
+  "version": "0.1.0",
+  "description": "MVP channel: your platform WS inbound + HTTP reply outbound for OpenClaw",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "mock-backend": "node scripts/mock-tunee-backend.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "tsx": "^4.21.0",
+    "openclaw": "2026.2.13",
+    "typescript": "^5.7.0"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
+}
